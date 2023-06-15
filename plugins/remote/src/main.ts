@@ -41,7 +41,7 @@ class ScryptedRemoteInstance extends ScryptedDeviceBase implements DeviceProvide
     settingsStorage = new StorageSettings(this, {
         baseUrl: {
             title: 'Base URL',
-            placeholder: 'https://localhost:10443',
+            placeholder: 'https://localhost:10444',
             onPut: async () => await this.clearTryDiscoverDevices(),
         },
         username: {
@@ -357,7 +357,7 @@ class ScryptedRemotePlugin extends ScryptedDeviceBase implements DeviceCreator, 
             {
                 key: 'baseUrl',
                 title: 'Base URL',
-                placeholder: 'https://localhost:10443',
+                placeholder: 'https://localhost:10444',
             },
             {
                 key: 'username',
