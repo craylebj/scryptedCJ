@@ -32,7 +32,7 @@ const loginPath = path.join(scryptedHome, 'login.json');
 
 function toIpAndPort(ip: string) {
     if (ip.indexOf(':') === -1)
-        ip += ':10443'
+        ip += ':10444'
     return ip;
 }
 
@@ -219,9 +219,9 @@ async function main() {
     }
     else {
         console.log('usage:');
-        console.log('   npx scrypted install npm-package-name [127.0.0.1[:10443]]');
-        console.log('   npx scrypted install npm-package-name[/0.0.1] [127.0.0.1[:10443]]');
-        console.log('   npx scrypted login [127.0.0.1[:10443]]');
+        console.log('   npx scrypted install npm-package-name [127.0.0.1[:10444]]');
+        console.log('   npx scrypted install npm-package-name[/0.0.1] [127.0.0.1[:10444]]');
+        console.log('   npx scrypted login [127.0.0.1[:10444]]');
         console.log('   npx scrypted serve');
         console.log('   npx scrypted serve@latest');
         console.log('   npx scrypted serve[@version]');
