@@ -46,7 +46,7 @@ function showLoginError() {
 
 function toIpAndPort(ip) {
     if (ip.indexOf(':') === -1)
-        ip += ':10443'
+        ip += ':10444'
     console.log(ip);
     return ip;
 }
