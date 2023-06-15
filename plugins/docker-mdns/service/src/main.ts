@@ -47,7 +47,7 @@ const httpsAgent = new https.Agent({
     rejectUnauthorized: false,
 });
 
-const host = '127.0.0.1:10443';
+const host = '127.0.0.1:10444';
 
 const creds = JSON.parse(fs.readFileSync(process.env.HOME + '/.scrypted/login.json').toString())[host];
 
