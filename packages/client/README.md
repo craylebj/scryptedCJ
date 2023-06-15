@@ -5,7 +5,7 @@ import { connectScryptedClient, OnOff } from '@scrypted/client';
 
 async function example() {
     const sdk = await connectScryptedClient({
-        baseUrl: 'https://localhost:10443',
+        baseUrl: 'https://localhost:10444',
         pluginId: "@scrypted/core",
         username: process.env.SCRYPTED_USERNAME || 'admin',
         password: process.env.SCRYPTED_PASSWORD || 'swordfish',
